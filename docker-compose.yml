@@ -4,3 +4,4 @@ services :
      image : shubham1009/my-note-app:latest
      ports :
          - "8000:8000"
+     restart: always
